@@ -27,13 +27,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GeometryTest", "GeometryTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseStringTest", "ReverseStringTest\ReverseStringTest.csproj", "{8A261E24-01A5-432D-90D1-F75D17BBAF9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circles", "Circles\Circles.csproj", "{F4426C2C-C454-45AA-AB90-A56C3BB331CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circles", "Circles\Circles.csproj", "{F4426C2C-C454-45AA-AB90-A56C3BB331CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleTest", "CircleTest\CircleTest.csproj", "{18BB11E4-4CCA-428B-AEE1-FA3A747536B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CircleTest", "CircleTest\CircleTest.csproj", "{18BB11E4-4CCA-428B-AEE1-FA3A747536B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberReturn", "PrimeNumberReturn\PrimeNumberReturn.csproj", "{D10EDDB0-DBEC-4F34-8686-62373A5C0C8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberReturn", "PrimeNumberReturn\PrimeNumberReturn.csproj", "{D10EDDB0-DBEC-4F34-8686-62373A5C0C8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{0ED1A73E-BF39-4D14-AF97-1E24EE68F8FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimeNumberTest", "PrimeNumberTest\PrimeNumberTest.csproj", "{0ED1A73E-BF39-4D14-AF97-1E24EE68F8FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayFilter", "ArrayFilter\ArrayFilter.csproj", "{669D7B5A-4770-484A-B8AC-7699EDD28B8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayFilterTest", "FilterTest\ArrayFilterTest.csproj", "{FADAA180-1A0C-4E65-9F11-1302FE7B9578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calendar", "Calendar\Calendar.csproj", "{B2F42865-8DDB-425B-B68B-054F3A213022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarTest", "CalendarTest\CalendarTest.csproj", "{58B3ADAB-68A3-4CCF-9E34-910CAB9E7075}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +113,22 @@ Global
 		{0ED1A73E-BF39-4D14-AF97-1E24EE68F8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ED1A73E-BF39-4D14-AF97-1E24EE68F8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ED1A73E-BF39-4D14-AF97-1E24EE68F8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669D7B5A-4770-484A-B8AC-7699EDD28B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669D7B5A-4770-484A-B8AC-7699EDD28B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669D7B5A-4770-484A-B8AC-7699EDD28B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669D7B5A-4770-484A-B8AC-7699EDD28B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADAA180-1A0C-4E65-9F11-1302FE7B9578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADAA180-1A0C-4E65-9F11-1302FE7B9578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADAA180-1A0C-4E65-9F11-1302FE7B9578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADAA180-1A0C-4E65-9F11-1302FE7B9578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F42865-8DDB-425B-B68B-054F3A213022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F42865-8DDB-425B-B68B-054F3A213022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F42865-8DDB-425B-B68B-054F3A213022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F42865-8DDB-425B-B68B-054F3A213022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58B3ADAB-68A3-4CCF-9E34-910CAB9E7075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B3ADAB-68A3-4CCF-9E34-910CAB9E7075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B3ADAB-68A3-4CCF-9E34-910CAB9E7075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58B3ADAB-68A3-4CCF-9E34-910CAB9E7075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

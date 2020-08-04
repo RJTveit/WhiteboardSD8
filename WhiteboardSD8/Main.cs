@@ -1,13 +1,16 @@
-﻿using System;
+﻿using CalendarLib;
+using System;
 
 namespace WhiteboardSD8
 {
-    class Program
+    class Main
     {
         static void Main(string[] args)
         {
             Console.WriteLine("WhiteboardSD8.Program.Main()");
 
+            Class1.GetJulianDate();
+           
         }
     }
 }
